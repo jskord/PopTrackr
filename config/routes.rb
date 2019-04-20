@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
   get '/' => 'pages#index'
-  get '/cable' => 'pages#cable'
+
+  get '/one' => 'pages#one'
 
 
 
