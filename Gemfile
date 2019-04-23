@@ -31,7 +31,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails', '~> 4.3.1'
 
 gem 'unirest'
-
+gem 'jqplot-rails'
 gem 'chart-js-rails'
 
 # Use ActiveStorage variant
