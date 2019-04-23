@@ -32,6 +32,8 @@ gem 'jquery-rails', '~> 4.3.1'
 
 gem 'unirest'
 
+gem 'chart-js-rails'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
