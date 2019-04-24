@@ -17,7 +17,5 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
-//= require Chart.min
 //= require jquery
 //= require jquery_ujs
-//= require jqplot
