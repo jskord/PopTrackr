@@ -1,0 +1,1 @@
+YUI.add("global-Snap",function(a){a.namespace("IXL");var n=require("ixl/external/snap/Snap"),e=require("ixl/external/snap/SnapUtil");a.namespace("IXL");a.namespace("IXL.SVG").loadAsync=e.loadAsync,window.Snap=n},"@VERSION@",{requires:["ixl_external_snap_Snap","ixl_external_snap_SnapUtil"]});

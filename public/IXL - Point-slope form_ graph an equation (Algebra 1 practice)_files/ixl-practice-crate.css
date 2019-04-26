@@ -1,0 +1,76 @@
+/*================================================================================================
+ * Styles for practice crates. A practice crate is the base layer for all generated UI pieces in
+ * the IXL practice engine. These styles should rarely be modified.
+ * -ecurtis 07/17/2012
+ *================================================================================================*/
+
+.ixl-practice-crate {
+  /* Fix bug 12323 -ecurtis 2/12/08 --set line-height to 1.4 */
+  font: 16px/1.4 'IXL Verdana', Verdana, Arial, Helvetica, sans-serif;
+  text-align: left;
+  min-width: 300px; /* responsive layout min-width is 320 - (10 * 2) left & right padding */
+  max-width: 760px;
+  /* Remove the tap-highlight that shows up on mobile browsers. -jzhu 10/25/17 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/*
+ * Add Noto to the font-stack if the current edition is Japanese.
+ *
+ * This is a short term fix. Longer term, I think our strategy should be to move
+ * this file into the yui3 directory, where SASS language features can be used.
+ * We have a SASS variable $ixl-verdana-font-stack which automatically swaps in
+ * a stack of font-families which is appropriate for the current edition.
+ */
+.ixl-practice-crate.ja {
+  font-family: 'IXL Verdana', 'Noto Sans Japanese', Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Fix bug 12323 -ecurtis 2/12/08 --set line-height to 1.4 */
+.ixl-practice-crate table {
+  line-height: 1.4;
+}
+
+/*****************************************************************************
+ *                      Styles for the play/pause button                     *
+ *****************************************************************************/
+.audio-button {
+  background: transparent url(/static/math/practice/images/audio.png) no-repeat 0 0;
+  cursor: pointer;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: baseline;
+  width: 16px;
+}
+
+.audio-button-hover {
+  background-position: -16px 0;
+}
+
+.audio-button-loading {
+  background: transparent url(/static/math/practice/images/audio-loading.gif) no-repeat 0 0;
+}
+
+.audio-button-playing {
+  background: transparent url(/static/math/practice/images/audio-playing.gif) no-repeat 0 0;
+}
+
+#ttsContainer {
+  width: 1px;
+  height: 1px;
+}
+
+/**************************************************************************************************
+ *                        HACKS (preserving old generator functionality)                          *
+ **************************************************************************************************/
+/* bug 41997 */
+sup {
+  top: auto;
+}
+
+/* bug 41997 */
+td {
+  margin: 0px;
+  padding: 0px;
+}
+

@@ -1,0 +1,202 @@
+/*================================================================================================
+ * Styles for html crates. An html crate is a question generated using the OldQuestionGenerator in
+ * R496 and beyond. These styles should rarely be modified, and even then, usually just added to.
+ * -ecurtis 06/22/2012
+ *================================================================================================*/
+
+/*****************************************************************************
+ *                     Start of styles for ixl-html-crate                      *
+ *****************************************************************************/
+.ixl-html-crate-root {
+  min-width: 300px; /* responsive layout min-width is 320 - (10 * 2) left & right padding */
+}
+
+.ixl-html-crate {
+  /* Fix bug 12323 -ecurtis 2/12/08 --set line-height to 1.4 */
+  font: 'IXL Verdana', Verdana, Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.ixl-html-crate p {
+  font-size: 1.0em;
+  /* Fix bug 12323 -ecurtis 2/12/08 --set line-height to 1.4 and remove margin */
+  line-height: 1.4;
+  margin: 0;
+}
+
+.ixl-html-crate table {
+  line-height: 1.4;
+}
+
+.ixl-html-crate font {
+  line-height: 100%;
+}
+
+.ixl-html-crate br {
+  line-height: 15px;
+}
+
+.ixl-html-crate sup {
+  bottom: .85ex;
+  line-height: 1;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.ixl-html-crate sup.negative {
+  bottom: .6ex;
+}
+
+.ixl-html-crate span.displayIEOnly {
+  display: none;
+  *display: inline;
+}
+
+.ixl-html-crate input[type=text] {
+  border: 1px solid #A7A6AA;
+  padding: 1px;
+}
+
+.ixl-html-crate input[type=text]:focus {
+  border-color: #535355;
+}
+
+.ixl-html-crate input[type=radio]:focus,
+.ixl-html-crate input[type=checkbox]:focus {
+  outline: black dotted 1px;  /* Firefox */
+
+  /* Use the webkit specific style so it uses the standard Safari look */
+  outline: -webkit-focus-ring-color auto 3px;
+
+  *border: 1px dotted black;  /* IE7 */
+}
+
+.ixl-html-crate sub {
+  bottom: -.3ex;
+  line-height: 1;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* Fix for for IE6 and IE7 italic bugs in variable expressions */
+/* IE7 fix, try to avoid affecting table cells that aren't part of expressions */
+.ixl-html-crate ul.ib-fix.ib-align-middle td {
+  *overflow:auto;
+}
+/* IE6 fix, should be safe everywhere */
+.ixl-html-crate td {
+  overflow:visible;
+}
+
+/**
+* INLINE BLOCK FIX(see http://europa/BB/viewtopic.php?f=6&t=91)
+* duplicated in htdocs/css/quia.css
+* - kzhang 10/22/2010
+*/
+.ixl-html-crate ul.ib-fix {
+  margin: 0;
+  padding: 0;
+}
+.ixl-html-crate .ib-align-middle li, .ixl-html-crate .ib-align-middle td {
+  vertical-align: middle;
+}
+.ixl-html-crate .ib-align-bottom li, .ixl-html-crate .ib-align-bottom td {
+  vertical-align: bottom;
+}
+.ixl-html-crate .ib-align-top li, .ixl-html-crate .ib-align-top td {
+  vertical-align: top;
+}
+.ixl-html-crate .ib-fix li {
+  display: -moz-inline-box;
+  display: inline-block;
+
+  /* for IE 6/7 */
+  *display:inline;
+  zoom:1;
+
+  word-wrap: break-word;
+  -moz-box-orient: vertical;
+
+  /* default inline element is followed by one space */
+  margin-right: 0.38em;
+}
+/* inline block elements have neither leading nor trailing space */
+.ixl-html-crate .ib-fix li.no-sp {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* for IE 6/7 */
+* html .ixl-html-crate .ib-fix li {
+  display:inline;
+}
+/* for IE7 */
+.ixl-html-crate .ib-fix > li {
+  *overflow:auto;
+}
+/*END INLINE BLOCK FIX*/
+
+.ixl-html-crate .verticalArrows {
+  line-height:42px;
+  display:inline-block;
+  zoom:1;
+  *display:inline;
+}
+
+.ixl-html-crate .blank-answer {
+  color: #9c9c9c;
+  font-style: italic;
+}
+
+.ixl-html-crate .dotted-answer td.quia_standard {
+  max-width: 730px;
+}
+
+.ixl-html-crate table.undoreset{border-collapse:separate;border-spacing:2px;}
+.ixl-html-crate table.undoreset td{padding:2px;}
+
+.ixl-html-crate .qchtml {
+  margin-left: 85px;
+  * margin-left : 0;
+}
+
+.ixl-html-crate td.quia_standard {
+  padding: 2px 4px;
+  border-spacing: 1px;
+}
+
+.ixl-html-crate td.quia_standard input {
+  width: 23px;
+  height: 23px;
+  font-size: 16px;
+}
+
+.ixl-html-crate input.textDisabled {
+  background-color: #EBEBE4;
+  border: 1px solid #7F9DB9;
+  padding: 1px;
+}
+
+/**********************/
+
+.yui3-correctanswer .ixl-html-crate  td.multianswer.correct {
+  background: transparent url(/static/math/reports/images/icon_checkmark_vs1.png) no-repeat left center;
+}
+
+.ixl-html-crate td.multianswer {
+  padding: 4px;
+  text-indent: 30px;
+}
+
+.ixl-html-crate td.multianswertext {
+  text-align: left;
+}
+
+.ixl-html-crate div.multistudanswer {
+  margin-left: 65px;
+  *margin-left: 67px;
+}
+
+.ixl-html-crate div.multimultistudanswer {
+  margin-left: 38px;
+  *margin-left: 40px;
+}

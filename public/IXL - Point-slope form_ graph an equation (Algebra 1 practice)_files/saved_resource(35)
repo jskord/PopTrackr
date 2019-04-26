@@ -1,0 +1,1 @@
+YUI.add("yui-gallery-svg-focus-patch",function(r){r.namespace("IXL");var t="_createGraphics",a=r.SVGGraphic,e=a.prototype[t];a.prototype[t]=function(){var r=e.apply(this,arguments);return r.setAttribute("focusable",!1),r}},"@VERSION@",{requires:[],after:["graphics"]});

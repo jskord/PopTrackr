@@ -1,0 +1,433 @@
+/**
+ * Generic styles for marketing pages
+ *
+ */
+.sectionHdr {
+  /* for h2 mostly */
+  color:#6D8E15;
+  font-size:14px;
+  font-weight:bold;
+  white-space:nowrap;
+}
+
+form#sharepagesubmit, form#emailathomesubmit {
+  margin: 10px 0;
+}
+
+#shareDialog td.tdLabel, #emailathomesubmit td.tdLabel,
+    #sharepagesubmit td.tdLabel,  #emailActivationInstructionsDialog td.tdLabel{
+  width: 30%;
+  /*width: 200px;*/
+  background-color: #97C41F;
+  color: white;
+  font-weight:bold;
+  border-left: 2px solid #95BE17;
+  border-right: none;
+  border-bottom: 2px solid white;
+}
+
+#shareDialog td.tdLabel span, #emailathomesubmit td.tdLabel span,
+    #sharepagesubmit td.tdLabel span, #emailActivationInstructionsDialog td.tdLabel span {
+  font-weight:normal;
+}
+
+#shareDialog label.disabled {
+  color: #888888;
+  font-style: italic;
+}
+
+#shareDialog td, #emailathomesubmit td, #sharepagesubmit td, #emailActivationInstructionsDialog td {
+  width:70%;
+  padding: 5px 10px;
+  text-align: left;
+  vertical-align:top;
+  background-color: #FCFAE5;
+  border-left: 2px solid #95BE17;
+  border-right: 2px solid #95BE17;
+  border-top: 2px solid #95BE17;
+  border-bottom: 2px solid #95BE17;
+}
+
+#shareDialog td.tdLabel-last, #emailathomesubmit td.tdLabel-last,
+    #sharepagesubmit td.tdLabel-last, #emailActivationInstructionsDialog td.tdLabel-last {
+  border-bottom: 2px solid #95BE17;
+}
+
+#shareDialog #subject {
+  width: 90%;
+}
+
+#shareDialog textarea, #emailathomesubmit textarea, #emailActivationInstructionsDialog textarea,
+    #emailathomesubmit textarea {
+  width:90%;
+}
+
+#shareDialog h3, #emailathomesubmit h3, #sharepagesubmit h3, #emailActivationInstructionsDialog h3 {
+  color:#6E9407;
+  font-size:20px;
+  font-weight:bold;
+  text-align:left;
+  margin-bottom:25px;
+}
+
+#shareDialog, #shareconfirm, #emailathomesubmit, #sharepagesubmit, #emailActivationInstructionsDialog {
+  text-align: left;
+}
+
+#shareDialog div.allRosterEmailDiv {
+  padding-bottom: 10px;
+}
+
+#emailActivationInstructionsDialog textarea {
+	height: 100px;
+}
+
+#emailActivationInstructionsDialog input#subject {
+  width: 400px;
+}
+
+.yui-cinfo {
+  font-size: 12px;
+  padding: 0 0 0 5px;
+}
+
+.yui-cinfo p {
+  margin:10px 0;
+  text-align:justify;
+}
+
+.yui-cinfo h1 {
+  color:#6E9407;
+  font-size:20px;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+
+.yui-cinfo h2 {
+  font-size:14px;
+  font-weight:bolder;
+  color:#729107;
+  margin: 1em 0;
+}
+
+.yui-cinfo h3 {
+  margin: 15px 0 5px;
+}
+
+.yui-cinfo ul li {
+  margin-left: 30px;
+}
+
+.yui-cinfo img {
+  float: right;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+/* IXL Testimonial Page - /math/marketing/testimonials.jsp */
+
+#testimonialHd {
+  background:#EFFDC7 url(/static/math/marketing/images/ixl_testimonials_bg_vs1.png) repeat-x;
+  margin:15px 0 0 0;
+  padding-bottom:10px;
+  padding-left:12px;
+}
+
+#testimonialHd h1 {
+  color:#6e9407;
+  font-size:14px;
+  font-weight:bold;
+  padding-top:8px;
+}
+
+#testimonialHd div {
+  padding-top:10px;
+}
+
+#testimonialHd a {
+  font-style:italic;
+}
+
+.eachTestimonial {
+  background:url(/static/math/marketing/images/ixl_testimonials_quote_vs1.png) no-repeat right top;
+  border-bottom:3px solid #edfdc3;
+  line-height:1.4em;
+  margin-top:25px;
+  padding:0 10px 5px 10px;
+}
+
+.lastOne {
+  border:0;
+}
+
+.curlyQuote {
+  font:normal 14px "Times New Roman",Georgia,Serif;
+}
+
+.eachTestimonial p.local{
+  font-style:italic;
+}
+
+/* IXL Search Engine Ad Words Splash Page
+ * /math/marketing/splash.jsp
+ */
+
+#splashDv {
+  margin:10px 10px 0 10px;
+  position:relative;
+  width:auto;
+}
+
+#chalkBoardDv {
+  background:url(/static/math/marketing/images/adword_chalkboard_bg.png) no-repeat;
+  height:208px;
+  position:relative;
+  width:100%;
+}
+
+#splashWelcome {
+  color:#fdc90b;
+  font:bold 30px Tahoma, Helvetica, Serif;
+  padding:45px 0 0 27px;
+  position:relative;
+  width: 360px;
+}
+
+#findPrekTo8 {
+  color:#000;
+  font:normal 15px Tahoma, Helvetica, Serif;
+  padding:10px 0 0 30px;
+  position:relative;
+  width: 340px;
+}
+
+#splashDv #pgTitleDv {
+  padding:22px 0 0 0;
+  text-align:center;
+}
+
+#splashDv #pgTitle {
+  color:#000;
+  font:normal 24px Verdana, Arial;
+}
+
+#pgTitle em {
+  color:#6a8f07;
+  font-weight:bold;
+}
+
+#skillCols {
+  padding:25px 0 0 0;
+}
+
+#skillCols a {
+  color:#007497;
+}
+
+#skillCols .grdHdrDv {
+  background-repeat:repeat-y;
+  margin:0 0 20px 0;
+  width:100%;
+}
+
+#pre-kHdrDv {
+  background:url(/static/math/marketing/images/adword_hdr_bg_prek.png);
+}
+#kindergartenHdrDv {
+  background:url(/static/math/marketing/images/adword_hdr_bg_k.png);
+}
+#firstHdrDv {
+  background:url(/static/math/marketing/images/adword_hdr_bg_1st.png);
+}
+#secondHdrDv {
+  background:url(/static/math/marketing/images/adword_hdr_bg_2nd.png);
+}
+#thirdHdrDv {
+  background:url(/static/math/marketing/images/adword_hdr_bg_3rd.png);
+}
+#fourthHdrDv {
+  background:url(/static/math/marketing/images/adword_hdr_bg_4th.png);
+}
+#fifthHdrDv {
+  background:url(/static/math/marketing/images/adword_hdr_bg_5th.png);
+}
+#sixthHdrDv {
+  background:url(/static/math/marketing/images/adword_hdr_bg_6th.png);
+}
+#seventhHdrDv {
+  background:url(/static/math/marketing/images/adword_hdr_bg_7th.png);
+}
+#eighthHdrDv {
+  background:url(/static/math/marketing/images/adword_hdr_bg_8th.png);
+}
+.hdrIcon {
+  background:url(/static/math/marketing/images/kids_all_10_h77.png) no-repeat 13px 7px;
+  float:left;
+  height:90px;
+  width:70px;
+}
+
+.hdrDesc {
+  color:#000;
+  float:right;
+  font:bold 10px Verdana, Arial;
+  width:225px;
+}
+
+#pre-kHdrDv .hdrIcon {
+  background-position:13px 7px;
+}
+
+#kindergartenHdrDv .hdrIcon {
+  background-position:-77px 7px;
+}
+
+#firstHdrDv .hdrIcon {
+  background-position:-167px 7px;
+}
+
+#secondHdrDv .hdrIcon {
+  background-position:-257px 7px;
+}
+
+#thirdHdrDv .hdrIcon {
+  background-position:-347px 7px;
+}
+
+#fourthHdrDv .hdrIcon {
+  background-position:-437px 7px;
+}
+
+#fifthHdrDv .hdrIcon {
+  background-position:-527px 7px;
+}
+
+#sixthHdrDv .hdrIcon {
+  background-position:-617px 7px;
+}
+
+#seventhHdrDv .hdrIcon {
+  background-position:-697px 7px;
+}
+
+#eighthHdrDv .hdrIcon {
+  background-position:-787px 7px;
+}
+
+#skillCols h3 {
+  font:bold 18px Verdana, Arial;
+  padding:10px 0 10px 0;
+}
+
+#pre-kHdrDv h3 {
+  color:#c65c9c;
+}
+
+#kindergartenHdrDv h3 {
+  color:#00a0d6;
+}
+
+#firstHdrDv h3 {
+  color:#c65c9c;
+}
+
+#secondHdrDv h3 {
+  color:#0fab46;
+}
+
+#thirdHdrDv h3 {
+  color:#7000d1;
+}
+
+#fourthHdrDv h3 {
+  color:#A77209;
+}
+
+#fifthHdrDv h3 {
+  color:#E7537D;
+}
+
+#sixthHdrDv h3 {
+  color:#00659E;
+}
+
+#seventhHdrDv h3 {
+  color:#699d24;
+}
+
+#eighthHdrDv h3 {
+  color:#526a66;
+}
+
+#skillCols h4 {
+  color:#000;
+  font:bold 12px Verdana, Arial;
+}
+
+#skillCols ul {
+  color:#000;
+  font:bold 12px Verdana, Arial;
+  padding:7px 0 20px 0;
+}
+
+#skillCols ul.last {
+  padding-bottom:40px;
+}
+
+#skillCols li {
+background:url(/static/math/marketing/images/adword_blue_bullet.png) no-repeat 0 5px;
+font-weight:normal;
+padding:0 0 4px 15px;
+}
+
+#smartscoreInfo {
+  text-align: left;
+  width: 650px;
+}
+
+#smartscoreInfo ul {
+  position: relative;
+}
+
+#smartscoreInfo p.intro {
+  font-size: 15px;
+}
+
+#smartscoreInfo h1, #smartscoreInfo h2 {
+  color: #6D8E15;
+  font-weight: bold;
+  margin: .5em 0;
+}
+
+#smartscoreInfo h1 {
+  font-size: 18px;
+}
+
+#smartscoreInfo h3 {
+  margin: .5em 0;
+}
+
+/* noAccessFull.jsp body */
+
+.noAccessBody #yui-main p {
+  padding:20px;
+}
+
+/* AJAX email address submit for newsletters/notification */
+
+input.text-placeholder {
+  color: #7F7F7F;
+}
+
+.noticesuccess {
+  color: #9139DC;
+  font-size: 12px;
+}
+
+#emailAjaxMsg .errorMessage, #emailAjaxMsg .noticesuccess {
+  position: absolute;
+}
+
+#emailAjaxMsg .noticesuccess {
+  padding-top: 5px;
+}

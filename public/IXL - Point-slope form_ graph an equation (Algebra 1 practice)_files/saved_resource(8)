@@ -1,0 +1,1 @@
+YUI.add("q-Lang",function(n){n.namespace("IXL").Lang={isString:function(n){return"string"==typeof n||n instanceof String},isFunction:function(n){return"function"==typeof n},isArray:function(n){return(Array.isArray||function(n){return n instanceof Array||"[object Array]"===Object.prototype.toString.call(n)})(n)}}},"@VERSION@",{requires:["base","node","array-extras"]});

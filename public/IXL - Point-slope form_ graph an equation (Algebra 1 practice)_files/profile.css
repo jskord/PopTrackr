@@ -1,0 +1,315 @@
+#profileDialog .bd {
+  overflow-x: hidden;
+}
+
+#profileDialog form, #editpasswordsubmit {
+  margin: 10px;
+}
+
+#profileDialog table, #editpasswordsubmit table {
+  background-color: white;
+  width:100%;
+}
+
+#profileDialog td.noborder, .editPasswordTable td.noborder {
+  border: none;
+  padding: 0;
+}
+
+#profileDialog td.nobkrnd, .editPasswordTable td.nobkrnd {
+  background-color:white;
+}
+
+#profileDialog td.spacertop, .editPasswordTable td.spacertop {
+  padding-top:10px;
+}
+
+#profileDialog td.spacerbot, .editPasswordTable td.spacerbot {
+  padding-bottom:10px;
+}
+
+#profileDialog td.tdLabel, .editPasswordTable td.tdLabel {
+  /*width: 30%;*/
+  width: 200px;
+  background-color: #97C41F;
+  color: white;
+  font-weight:bold;
+  border-left: 2px solid #95BE17;
+  border-right: none;
+  border-bottom: 2px solid white;
+}
+
+.editPasswordTable td.tdLabel {
+	width:50%;
+  white-space: nowrap;
+}
+
+#profileDialog td.tdLabel .required {
+  margin-right: -190px;
+}
+
+#profileDialog td.tdLabel-last, .editPasswordTable td.tdLabel-last {
+  border-bottom: 2px solid #95BE17;
+}
+
+#profileDialog td, .editPasswordTable td {
+  width:70%;
+  padding: 5px 10px;
+  text-align: left;
+  background-color: #FCFAE5;
+  border-left: 2px solid #95BE17;
+  border-right: 2px solid #95BE17;
+  border-bottom: 2px solid #95BE17;
+}
+
+#profileDialog td.botBorder, .editPasswordTable td.botBorder {
+  border-bottom: 2px solid #95BE17;
+}
+
+#profileDialog span.rightNote {
+  font-size:smaller;
+}
+
+td#profileButtons {
+  padding: 1.5em 0;
+  border: none;
+  text-align: right;
+  background-color: white;
+}
+
+#profileButtons span {
+  position: static;
+}
+
+.carousel-component {
+  padding:5px 25px;
+  background:none;
+  left:5px;
+}
+
+.carousel-component .carousel-clip-region {
+  /*background:#E2EDFA none repeat scroll 0%;*/
+  color:#618CBE;
+  padding:0px;
+}
+
+.carousel-component ul.carousel-list {
+  padding-left:0px;
+  padding-right:0px;
+  height:66px;
+}
+
+.carousel-component .carousel-list li {
+  width:56px;
+  height:50px;
+  /*line-height: 50px;*/
+  background:#B5E144;
+  border-top:8px solid #FCFAE5;
+  /*padding:0 3px;*/
+}
+
+.carousel-component .carousel-list img {
+  /*vertical-align:middle;*/
+  margin-top:-5px;
+  margin-left:-2px;
+  cursor:pointer;
+}
+
+.carousel-component .carousel-list li.checked2 {
+  background-image:url(../images/profile_background-small_vs1.png);
+  height:66px;
+  margin-top:-8px;
+  line-height: 66px;
+}
+
+.checked-hid {
+  background-image:url(../images/profile_background-small_vs1.png);
+}
+
+.carousel-component .carousel-list li.checked {
+  background-image:url(../images/profile_background-small-current_vs1.png);
+  height:66px;
+  margin-top:-8px;
+  line-height: 66px;
+}
+
+.carousel-component .carousel-list li.checked img, .carousel-component .carousel-list li.checked2 img {
+  margin-top: 3px;
+  *margin-top:1px;
+  _margin-top:4px;
+}
+
+#profileDialog, .editPasswordTable, #editpasswordsubmit {
+  font-family: Verdana, arial, helvetica, clean, sans-serif;
+}
+
+#profileDialog h3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #6e9407;
+  background-color: white;
+  text-align: left;
+}
+
+#profileDialog h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #6e9407;
+  background-color: white;
+  text-align: left;
+  padding-top:40px;
+}
+
+#profileDialog h4.h4b {
+  padding-top:5px;
+}
+
+#profileDialog h5, #editpasswordsubmit h5 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #6e9407;
+  background-color: white;
+  text-align: left;
+  padding-top:25px;
+  padding-bottom:15px;
+}
+
+#editpasswordsubmit h5  {
+  padding-top:0;
+}
+
+#profileDialog #errorHeader {
+  margin:0 0 0 10px;
+}
+
+#profileDialog .tdLabel img {
+  width:60px;
+  height:60px;
+  margin:20px 60px;
+  display:block;
+
+}
+
+#passwordDialog .bd p {
+  text-align: left;
+}
+
+#passwordDialog .bd p a {
+  font-weight: bold;
+}
+
+/*****************************************************************************/
+#profileDialog .yui-carousel {
+  margin: 5px;
+}
+
+#profileDialog .yui-carousel-element li {
+  width:56px;
+  height:50px;
+  background:#B5E144;
+  border-style: solid;
+  border-color: #FCFAE5;
+  border-width: 8px 0;
+  margin: 0;
+  outline: none;
+}
+
+#profileDialog .yui-carousel-element li.yui-carousel-item-hover {
+  background-image:url(../images/profile_background-small_vs1.png);
+  border-width: 0;
+  height:66px;
+}
+
+#profileDialog .yui-carousel-element li.yui-carousel-item-selected {
+  /*background-image:url(../images/profile_background-small-current_vs1.png);*/
+  background-image:url(../images/profile_background-small_vs1.png);
+  border-width: 0;
+  height:66px;
+}
+
+#profileDialog .yui-carousel-element img {
+  margin-top:5px;
+  margin-left:-2px;
+  cursor:pointer;
+}
+
+#profileDialog .yui-carousel-item-hover img, #profileDialog .yui-carousel-item-selected img {
+  margin-top: 13px;
+}
+
+#profileDialog .noterow .tdLabel {
+  vertical-align: top;
+}
+
+#profileDialog .noterow a {
+  white-space: nowrap;
+}
+
+#profileDialog .tdLabel dd {
+  padding-left: 1em;
+}
+
+#profileDialog dd input {
+  vertical-align: bottom;
+}
+
+#profileDialog select#stateList {
+  width: auto;
+  min-width: 153px;
+}
+
+#profileDialog dd.forCheckbox {
+  height:15px;
+  padding-bottom:3px;
+}
+
+.forCheckbox input {
+  height:15px;
+}
+
+.domain {
+  color: #808080;
+}
+
+#profileDialog div.note {
+  font-size: 11px;
+  font-style: italic;
+  padding-top: 5px;
+}
+
+#profileDialog label + input {
+  margin-left: 20px;
+}
+
+#diagnosticAudioHint,
+#optionalAudioHint {
+  background-image: url(/static/math/images/question_icon.png);
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: bottom;
+}
+
+.recommendation-note {
+  font-size: 10px;
+  color: #8f8f8f;
+  margin-top: 5px;
+}
+
+label.trialSubj {
+  color: #acacac;
+}
+
+#profileDialog table.subjectTable td {
+  border-style: none;
+  width: auto;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 0px;
+  vertical-allign: middle;
+}
+#profileDialog table.subjectTable {
+  border-style: none;
+  width: auto;
+}
+
